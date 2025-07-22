@@ -1,0 +1,68 @@
+[app/ui]
+version = 9.4.3
+modtime = 1753147806.684557900
+
+[app/launcher]
+version = 9.4.3
+modtime = 1753147806.698557900
+
+[savedsearches/Build%20User%20GEO%20Baseline]
+access = read : [ * ]
+export = system
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753164156.772988400
+
+[savedsearches/Build%20User%20Session-Stat%20Baseline]
+access = read : [ * ]
+export = none
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753164163.247917400
+
+[savedsearches/Train%20Density%20Model%20%E2%80%93%20User%20%C3%97%20Hour]
+access = read : [ * ]
+export = none
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753164173.188043200
+
+[lookups/user_service_seq.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 9.4.3
+modtime = 1753165779.655081000
+
+[lookups/user_session_stats.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 9.4.3
+modtime = 1753165785.745008400
+
+[savedsearches/VPN%20High-Risk%20Login]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753185778.471618000
+
+[indexes/vpn_scores]
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753169310.476946800
+
+[savedsearches/Build%20User%20Service-Sequence%20Baseline]
+access = read : [ * ], write : [ power ]
+export = system
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753169508.813645500
+
+[savedsearches/VPN%20Risk%20Collector]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = karthikch2002@gmail.com
+version = 9.4.3
+modtime = 1753197697.877765000
